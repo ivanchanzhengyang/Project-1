@@ -55,7 +55,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact Information
 
-For questions or suggestions, please contact [Your Name](mailto:your.email@example.com).
+For questions or suggestions, please contact [Ivan Chan](mailto:ivan.chanzhengyang@yahoo.com.sg).
 
 ![App Screenshot](/screenshots/screenshot.png)
 
