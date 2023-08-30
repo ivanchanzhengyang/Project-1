@@ -40,11 +40,11 @@ For reference, here is a data dictionary providing descriptions of the columns i
 
 # Visualization
 
-![Stacked Bar Chart of Ridership by Month](/Generated images//Stacked Bar Chart of Ridership by Month (Custom Colors).png)
+![Stacked Bar Chart of Ridership by Month](/Generated images/Stacked Bar Chart of Ridership by Month (Custom Colors).png)
 
 [Include a brief description of the visualization and how it relates to your analysis.]
 
-![Ridership Bar Chart (normalized)](/Generated images//Stacked Bar Chart with Normalized Data and Percentages.png)
+![Ridership Bar Chart (normalized)](/Generated images/Stacked Bar Chart with Normalized Data and Percentages.png)
 
 [Include a brief description of the visualization and how it relates to your analysis.]
 
