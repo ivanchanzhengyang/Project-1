@@ -96,10 +96,12 @@ These findings have implications for transportation planning and resource alloca
 
 In conclusion, our analysis provides insights into the relationship between rainy days and ridership in public transportation. While a negative correlation exists, it is not the sole determinant of ridership patterns. The influence of rainy weather is part of a multifaceted landscape of factors shaping ridership trends.
 
-## External Source for Interest
+## External Sources for Interest
 
-Source used: [https://www.sciencedirect.com/science/article/abs/pii/S0968090X16302492](https://www.sciencedirect.com/science/article/abs/pii/S0968090X16302492) (Zhou et al., 2017)
+[https://www.sciencedirect.com/science/article/abs/pii/S0968090X16302492](https://www.sciencedirect.com/science/article/abs/pii/S0968090X16302492) (Zhou et al., 2017)
 
-Zhou, M., Wang, D., Li, Q., Yue, Y., Tu, W., & Cao, R. (2017, February 1). Impacts of weather on public transport ridership: Results from mining data from different sources. Transportation Research Part C-emerging Technologies; Elsevier BV. [https://doi.org/10.1016/j.trc.2016.12.001](https://doi.org/10.1016/j.trc.2016.12.001)
+1. Zhou, M., Wang, D., Li, Q., Yue, Y., Tu, W., & Cao, R. (2017, February 1). Impacts of weather on public transport ridership: Results from mining data from different sources. Transportation Research Part C-emerging Technologies; Elsevier BV. [https://doi.org/10.1016/j.trc.2016.12.001](https://doi.org/10.1016/j.trc.2016.12.001)
 
 While the document used seems to apply to the Shenzhen province of China, most of the means they have applied for that region can also be relevant to Singapore's climate and the ridership of various modes of transportation.
+
+2. 
