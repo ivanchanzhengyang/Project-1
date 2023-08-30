@@ -21,16 +21,23 @@ For the most up-to-date and detailed information on the public transport ridersh
 
 # Analysis Summary
 
-Our data analysis revealed several important insights regarding the relationship between weather conditions and public transportation ridership. Key findings include:
+Our data analysis uncovered several significant insights into the relationship between weather conditions and public transportation ridership. Key findings include:
 
-- [Highlight your main findings here]
+- There is a notable negative correlation between rainy days and public transportation ridership. Specifically, all public transport modes, except for the LRT system, exhibit a correlation coefficient of approximately -0.49. For the LRT system, the correlation coefficient is -0.46.
 
 # Data Dictionary
 
-For reference, here is a data dictionary providing descriptions of the dataset's columns:
+For reference, here is a data dictionary providing descriptions of the columns in the ridership dataset:
 
-- `Date`: The date of the data entry.
-- `Rainfall`: The monthly total rainfall.
+| **Feature Name**   | **Data Type** | **Description**                                         |
+|-------------------|---------------|---------------------------------------------------------|
+| `month`           | Object (str)  | The month for which the ridership data is recorded.    |
+| `no_of_rainy_days`| Integer       | The number of rainy days in the given month.           |
+| `bus`             | Integer       | Total ridership for public buses in the month (in thousands).        |
+| `mrt`             | Integer       | Total ridership for Mass Rapid Transit (MRT) in the month (in thousands). |
+| `lrt`             | Integer       | Total ridership for Light Rail Transit (LRT) in the month (in thousands). |
+| `total_ridership` | Integer       | The combined total ridership for all modes of transportation in the month (in thousands). |
+
 
 # Visualization
 
