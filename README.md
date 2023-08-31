@@ -108,4 +108,4 @@ These findings have implications for transportation planning and resource alloca
 
 ### Conclusion
 
-In conclusion, our analysis provides insights into the relationship between rainy days and ridership in public transportation. While a negative correlation exists, it is not the sole determinant of ridership patterns. The influence of rainy weather is part of a
+In conclusion, our analysis provides insights into the relationship between rainy days and ridership in public transportation. While a negative correlation exists, it is not the sole determinant of ridership patterns. The influence of rainy weather is part of a multifaceted landscape of factors shaping ridership trends.
