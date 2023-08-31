@@ -42,11 +42,11 @@ For reference, here is a data dictionary providing descriptions of the columns i
 
 ![Stacked Bar Chart of Ridership by Month](/Generated%20images/Stacked%20Bar%20Chart%20of%20Ridership%20by%20Month%20(Custom%20Colors).png)
 
-[Include a brief description of the visualization and how it relates to your analysis.]
+Shows a scatterplot of number of rainy days imposed on the bar chart showing the various ridership numbers across a monthly period between January 2019 to August 2022.
 
 ![Ridership Bar Chart (normalized)](/Generated%20images/Stacked%20Bar%20Chart%20with%20Normalized%20Data%20and%20Percentages.png)
 
-[Include a brief description of the visualization and how it relates to your analysis.]
+Shows a scatterplot of number of rainy days imposed on the normalized bar chart showing the various ridership numbers across a monthly period between January 2019 to August 2022 to account for the drastic drop in riderships.
 
 # Conclusion and Recommendations
 
