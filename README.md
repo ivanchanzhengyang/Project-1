@@ -1,31 +1,45 @@
-# Data Overview
+# Public Transportation Ridership and Weather Analysis
 
-This project utilizes a dataset covering public transportation ridership data and weather conditions from January 2019 to August 2022. The data sources and scope are as follows:
+## Table of Contents
+- [Introduction](#introduction)
+- [Data Sources](#data-sources)
+- [Analysis Summary](#analysis-summary)
+- [Data Dictionary](#data-dictionary)
+- [Visualizations](#visualizations)
+- [Conclusion and Recommendations](#conclusion-and-recommendations)
+- [Original Conclusion](#original-conclusion)
+- [External Sources](#external-sources)
 
-## Public Transport Ridership Data
+## Introduction
+
+This project analyzes public transportation ridership data and weather conditions spanning from January 2019 to August 2022. We aim to understand the relationship between weather patterns, particularly rainy days, and public transportation ridership in Singapore.
+
+## Data Sources
+
+### Public Transport Ridership Data
 
 - **Data Source:** Land Transport Authority of Singapore
 - **Time Period:** January 2019 to August 2022
 - **Variables Analyzed:** Average Daily Ridership (‘000)
-- **PDF Source:** [Link to PDF](https://www.lta.gov.sg/content/dam/ltagov/who_we_are/statistics_and_publications/statistics/pdf/PT_Ridership_Monthly_2019-2022.pdf)
+- **PDF Source:** [Link to PDF Report](https://www.lta.gov.sg/content/dam/ltagov/who_we_are/statistics_and_publications/statistics/pdf/PT_Ridership_Monthly_2019-2022.pdf)
 
-For the most up-to-date and detailed information on the public transport ridership dataset, please refer to the [PDF source](https://www.lta.gov.sg/content/dam/ltagov/who_we_are/statistics_and_publications/statistics/pdf/PT_Ridership_Monthly_2019-2022.pdf) directly.
+For the most up-to-date and detailed information on the public transport ridership dataset, please refer to the [PDF report](https://www.lta.gov.sg/content/dam/ltagov/who_we_are/statistics_and_publications/statistics/pdf/PT_Ridership_Monthly_2019-2022.pdf) directly.
 
-## Weather Data
+### Weather Data
 
 - **Data Source:** `rainfall-monthly-number-of-rain-days.csv`
 - **Time Period:** January 2019 to August 2022
-- **Variables Analyzed:** 
+- **Variables Analyzed:**
   - `Date`: The date of the data entry
   - `Rainfall`: The monthly total rainfall
 
-# Analysis Summary
+## Analysis Summary
 
 Our data analysis uncovered several significant insights into the relationship between weather conditions and public transportation ridership. Key findings include:
 
 - There is a notable negative correlation between rainy days and public transportation ridership. Specifically, all public transport modes, except for the LRT system, exhibit a correlation coefficient of approximately -0.49. For the LRT system, the correlation coefficient is -0.46.
 
-# Data Dictionary
+## Data Dictionary
 
 For reference, here is a data dictionary providing descriptions of the columns in the ridership dataset:
 
@@ -38,21 +52,21 @@ For reference, here is a data dictionary providing descriptions of the columns i
 | `lrt`             | Integer       | Total ridership for Light Rail Transit (LRT) in the month (in thousands). |
 | `total_ridership` | Integer       | The combined total ridership for all modes of transportation in the month (in thousands). |
 
-# Visualization
+## Visualizations
 
 ![Stacked Bar Chart of Ridership by Month](/Generated%20images/Combined_Chart_with_Secondary_Axis_Labels.png)
 
-Shows a scatterplot of number of rainy days imposed on the bar chart showing the various ridership numbers across a monthly period between January 2019 to August 2022.
+This visualization shows a scatterplot of the number of rainy days imposed on a bar chart displaying ridership numbers across a monthly period between January 2019 to August 2022.
 
 ![Ridership Bar Chart (normalized)](/Generated%20images/Combined_Chart_with_Percentages_Labels_(Normalized).png)
 
-Shows a scatterplot of number of rainy days imposed on the normalized bar chart showing the various ridership numbers across a monthly period between January 2019 to August 2022 to account for the drastic drop in riderships.
+This visualization displays a scatterplot of the number of rainy days imposed on a normalized bar chart showing ridership numbers across a monthly period between January 2019 to August 2022 to account for the drastic drop in riderships.
 
-# Conclusion and Recommendations
+## Conclusion and Recommendations
 
 In conclusion, our analysis highlights a moderate negative relationship between rainy days and public transportation ridership. While this correlation suggests that rainy weather can influence ridership, it's essential to recognize that ridership is influenced by various factors.
 
-## Recommendations
+### Recommendations
 
 Based on our findings, we offer the following recommendations:
 
@@ -68,38 +82,30 @@ Based on our findings, we offer the following recommendations:
 
 By implementing these recommendations, public transportation authorities can enhance their services and promote ridership, especially during adverse weather conditions.
 
-# Original Conclusion
+## Original Conclusion
 
 In this section, we present our analysis of the relationship between rainy days and ridership in public transportation. Our objective was to determine whether there is a discernible impact of rainy weather on ridership levels. We utilized a combination of data visualization and statistical analysis to gain insights into this relationship.
 
-## Data Visualization and Correlation Analysis
+### Data Visualization and Correlation Analysis
 
 We began our analysis by visualizing the data using a heatmap to explore the correlation between rainy days and ridership. The heatmap displayed a correlation coefficient of approximately -0.49, indicating a moderate negative correlation between these variables.
 
-## Interpreting the Correlation
+### Interpreting the Correlation
 
 The negative correlation suggests that, on average, an increase in the number of rainy days is associated with a decrease in ridership. However, it's important to note that this correlation, while statistically significant, is not exceptionally strong. It signifies that rainy weather may be one of several factors influencing ridership.
 
-## Factors Beyond Rainy Days
+### Factors Beyond Rainy Days
 
 Our analysis also revealed that ridership patterns are influenced by various factors beyond rainy days. Other variables, such as mode of transportation (bus, MRT, LRT), may have a more substantial impact on ridership trends. Additionally, events, holidays, and economic conditions can play significant roles.
 
-## Seasonality and Geographic Variations
+### Seasonality and Geographic Variations
 
 Although our dataset covers several years, we observed that seasonality and regional variations may have relatively limited effects on ridership in this national context. With nationwide data, we focused on overarching trends rather than localized fluctuations.
 
-## Implications and Further Research
+### Implications and Further Research
 
 These findings have implications for transportation planning and resource allocation. Understanding the relationship between weather and ridership can aid in optimizing public transportation services during inclement weather conditions. However, further research is needed to explore the complex interplay of factors affecting ridership.
 
-## Conclusion
+### Conclusion
 
-In conclusion, our analysis provides insights into the relationship between rainy days and ridership in public transportation. While a negative correlation exists, it is not the sole determinant of ridership patterns. The influence of rainy weather is part of a multifaceted landscape of factors shaping ridership trends.
-
-## External Sources for Interest
-
-[https://www.sciencedirect.com/science/article/abs/pii/S0968090X16302492](https://www.sciencedirect.com/science/article/abs/pii/S0968090X16302492) (Zhou et al., 2017)
-
-1. Zhou, M., Wang, D., Li, Q., Yue, Y., Tu, W., & Cao, R. (2017, February 1). Impacts of weather on public transport ridership: Results from mining data from different sources. Transportation Research Part C-emerging Technologies; Elsevier BV. [https://doi.org/10.1016/j.trc.2016.12.001](https://doi.org/10.1016/j.trc.2016.12.001)
-
-While the document used seems to apply to the Shenzhen province of China, most of the means they have applied for that region can also be relevant to Singapore's climate and the ridership of various modes of transportation.
+In conclusion, our analysis provides insights into the relationship between rainy days and ridership in public transportation. While a negative correlation exists, it is not the sole determinant of ridership patterns. The influence of rainy weather is part of a
