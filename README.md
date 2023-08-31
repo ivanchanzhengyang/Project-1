@@ -103,5 +103,3 @@ In conclusion, our analysis provides insights into the relationship between rain
 1. Zhou, M., Wang, D., Li, Q., Yue, Y., Tu, W., & Cao, R. (2017, February 1). Impacts of weather on public transport ridership: Results from mining data from different sources. Transportation Research Part C-emerging Technologies; Elsevier BV. [https://doi.org/10.1016/j.trc.2016.12.001](https://doi.org/10.1016/j.trc.2016.12.001)
 
 While the document used seems to apply to the Shenzhen province of China, most of the means they have applied for that region can also be relevant to Singapore's climate and the ridership of various modes of transportation.
-
-2. 
