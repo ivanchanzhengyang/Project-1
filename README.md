@@ -13,7 +13,7 @@ For the most up-to-date and detailed information on the public transport ridersh
 
 ## Weather Data
 
-- **Data Source:** `rainy_days_to_ridership.csv` (Derived from `rainfall-monthly-number-of-rain-days.csv` by adding the number of rainy days to each of its respective dates in the original CSV)
+- **Data Source:** `rainfall-monthly-number-of-rain-days.csv`
 - **Time Period:** January 2019 to August 2022
 - **Variables Analyzed:** 
   - `Date`: The date of the data entry
